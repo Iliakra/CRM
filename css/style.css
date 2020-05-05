@@ -1,0 +1,177 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+}
+
+.table-container {
+    position: relative;
+    width: 350px;
+    margin-left: 200px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.table {
+    border: 1px solid black;
+} 
+
+th {
+    text-align: left;
+}
+
+td {
+    height: 17.5px;
+}
+
+.title {
+    width: 180px;
+}
+
+.price {
+    width: 100px;
+}
+
+.actions {
+    width: 90px;
+}
+
+.buttons-container {
+    position: relative;
+}
+
+.delete-button {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    top: -7px;
+    left: 35px;
+    font-size: 30px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.correct-button {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    top: -15px;
+}
+
+.form-container {
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    left: 25px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.building-form {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+}
+
+.form-button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0 0 0 3px pink;
+}
+
+.form-hint {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.invisible {
+    display: none;
+}
+
+.deletion-hint {
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    left: 75px;
+    width: 200px;
+    height: 105px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.deletion-button-container {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deletion-hint-button, .cancel-deletion-button  {
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.deletion-text {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.form-error {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    color: red;
+    font-size: 15px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    background-color: white;
+}
+
+.name-label {
+    position: relative;
+}
+

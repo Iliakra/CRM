@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+    <div class="table-container">
+        <div class="title-container">
+            <h3 class="table-title">Товары</h3>
+            <button class="add-button">+</button>
+        </div>
+        <table class="table">
+            <tr>
+                <th class="title">Название</th>
+                <th class="price">Стоимость</th>
+                <th class="actions">Действия</th>
+            </tr>
+        </table>
+        <div class="form-container invisible">
+            <form class="building-form">
+                <label class="name-label">
+                    <p class="form-hint">Название</p>
+                    <input class="item-name" type="text" placeholder="Название товара" required>
+                </label>
+                <label class="price-label">
+                    <p class="form-hint">Стоимость</p>
+                    <input class="item-price" type="text" placeholder="Стоимость товара" required>
+                </label>
+                <button type="reset" class="form-button save-button">Сохранить</button>
+                <button type="reset" class="form-button cancel-button">Отмена</button>
+            </form>
+        </div>
+        <div class="deletion-hint invisible">
+            <p class="deletion-text"></p>
+            <div class="deletion-button-container">
+                <button class="deletion-hint-button" type="reset">yes</button>
+                <button class="cancel-deletion-button" type="reset">no</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./src/js/index.js"></script>
+</body>
+</html>
