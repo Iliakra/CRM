@@ -36,13 +36,13 @@ describe('click to button', () => {
     test('' , async () => {
         await page.goto(baseUrl);
         const addButton = await page.$('.add-button');
-        addButton.click();
+        await addButton.click();
         const inputName = await page.$('input.item-name');
         await inputName.type('123');
         const inputPrice = await page.$('input.item-price');
         await inputPrice.type('20300');
         const saveButton = await page.$('.save-button');
-        saveButton.click();
+        await saveButton.click();
         await page.waitForSelector('.tr-added');
     });
   
